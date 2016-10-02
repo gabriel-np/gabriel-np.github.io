@@ -10,7 +10,7 @@ I updated my machine to macOS Sierra and wanted a fresh start in my development 
 
 My machine is : 
 
-![My helpful screenshot](/assets/my-machine.png)
+![MacBook Pro mid-2012](/assets/my-machine.png)
 
 What is THIS?
 
