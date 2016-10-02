@@ -3,7 +3,11 @@ layout: default #post
 title:  "The State of my Machine"
 date:   2016-10-02 08:13:02 -0400
 categories: jekyll update my-machine
+excerpt_separator: <!--more-->
 ---
+I've completely overhauled this place and I'm finally satisfied.
+<!--more-->
+
 ## Nothing like a brand new start
 
 I updated my machine to macOS Sierra and wanted a fresh start in my development environment. I've completely overhauled this place and I'm finally satisfied. 
