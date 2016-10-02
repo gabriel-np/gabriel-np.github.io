@@ -2,26 +2,40 @@
 # Only the main Sass file needs front matter (the dashes are enough)
 ---
 
-// These are a problem I'll have to deal with eventually...
-$font-stack-system: sans-serif; 
-$all-buttons: bold;
-$all-text-inputs: bold;
+@import "variables";
 
 // Import partials from `sass_dir` (defaults to `_sass`)
-@import 
+@import
+	"bourbon/bourbon",
 	"base/base",
-    "bourbon/bourbon",
-    "neat/neat"
+	"neat/neat"
 ;
 
 .outer {
 	@include outer-container;
 } 
 
-nav, footer, .container {
+nav, footer {
 	@include span-columns(10);
+	@include shift(1);
+	//border: 1px solid green;
+}
+
+nav {
+	margin-bottom : 1.8em;
+	h1, ul {display: inline}
+	h1 {font-size: 2.225em;}
+	li {float: right;display: inline;margin-left: 1.2em}
+}
+
+.container {
+	@include span-columns(8);
+	@include omega();
 	@include shift(1);
 	//border: 1px solid lightgrey;
 }
 
-nav li {float: right;display: inline;margin-left: 1.2em}
+footer {
+	margin-top: 1.8em;
+	background-color: #444;
+}
