@@ -8,20 +8,32 @@ $all-buttons: bold;
 $all-text-inputs: bold;
 
 // Import partials from `sass_dir` (defaults to `_sass`)
-@import 
+@import
+	"bourbon/bourbon",
 	"base/base",
-    "bourbon/bourbon",
-    "neat/neat"
+	"neat/neat"
 ;
 
 .outer {
 	@include outer-container;
 } 
 
-nav, footer, .container {
-	@include span-columns(10);
-	@include shift(1);
-	//border: 1px solid lightgrey;
+nav, footer {
+	@include span-columns(12);
+	//@include shift(1);
+	border: 1px solid green;
 }
 
 nav li {float: right;display: inline;margin-left: 1.2em}
+
+.container {
+	@include span-columns(8);
+	@include omega();
+	//@include shift(1);
+	border: 1px solid lightgrey;
+}
+
+.aside {
+	@include span-columns(4);
+	border: 1px solid red;
+} 
