@@ -20,6 +20,10 @@ $ gem install jekyll bundler
 
 If it gets complicated, here is the [official Jekyll page for installation](https://jekyllrb.com/docs/installation/)
 
+#### Read this
+
+This article by [JONATHAN MCGLONE](http://jmcglone.com/guides/github-pages/){:target="_blank"} does a way better job than me at explaining this process. You should read it first.
+
 #### List of steps
 At the end of this list, you should have an installation of Jekyll hosted on your mac for local testing that you can also easily push to github for hosting.
 
@@ -38,10 +42,28 @@ At the end of this list, you should have an installation of Jekyll hosted on you
 		# If you want to use GitHub Pages, remove the "gem "jekyll"" above and
 		# uncomment the line below. To upgrade, run `bundle update github-pages`.
 		gem "github-pages", group: :jekyll_plugins<pre>
-1. Don't forget to run `bundle update github-pages`. Also I have found that Jekyll left the ruby version in the Gemfile to `RUBY_VERSION` so I changed it to `ruby '2.3.1'` 
-		
-###### Great resources 
+1. Don't forget to run `bundle update github-pages`. Also I have found that Jekyll left the ruby version in the Gemfile to `RUBY_VERSION` so I changed it to `ruby '2.3.1'`
+1. I've also changed the content of my `_config.yml` file. There you can change your site's title among others.
+1. You can test your site locally by running this command in Terminal and then visiting [http://localhost:4000/](http://localhost:4000/) in your browser.
+	<pre>
+		// Just make sure you're in the right dir
+		$ bundle exec jekyll serve</pre>
+1. Now that everything is set up according to your likings, it is a good time to `git add` everything. Remember that those Jekyll files still reside only on your computer. You need to be able to puck it to Github. 
+	<pre>
+		$ git add .
+		$ git commit -m "Updated Jekyll site"
+		$ git push</pre>
+1. Github builds your Jekyll page as soon as you push to their servers.
 
-- [helabs.com](https://helabs.com/artigos/2015/03/27/bourbon-family-on-github-pages/){:target="_blank"}
-- [JONATHAN MCGLONE](http://jmcglone.com/guides/github-pages/){:target="_blank"}
+#### Taking it a step further
 
+I wanted to use the [Bourbon family](http://bourbon.io) to style my blog so I followed the instructions from this page at [helabs.com](https://helabs.com/artigos/2015/03/27/bourbon-family-on-github-pages/){:target="_blank"}
+
+I like Bourbon, Neat and Bitters. Here's what I put in my main.scss file.
+
+```
+@import
+    "bourbon/bourbon",
+    "base/base",
+    "neat/neat";
+```
