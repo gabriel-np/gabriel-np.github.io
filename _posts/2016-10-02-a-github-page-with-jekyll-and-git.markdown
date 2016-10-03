@@ -59,7 +59,20 @@ At the end of this list, you should have an installation of Jekyll hosted on you
 
 I wanted to use the [Bourbon family](http://bourbon.io) to style my blog so I followed the instructions from this page at [helabs.com](https://helabs.com/artigos/2015/03/27/bourbon-family-on-github-pages/){:target="_blank"}
 
-I like Bourbon, Neat and Bitters. Here's what I put in my main.scss file.
+###### To install bourbon, neat and bitters gems
+
+```
+$ gem install bourbon neat bitters
+```
+
+Open or create a `_sass` folder in your project and generate the bourbon family files like so.
+
+```
+$ cd _sass
+$ bourbon install && neat install && bitters install
+```
+
+Then edit `css/main.scss` file to include the generated files.
 
 ```
 @import
