@@ -19,9 +19,11 @@
 } 
 
 nav, footer {
-	@include span-columns(8);
-	@include shift(2);
-	//border: 1px solid green;
+	@include span-columns(12);
+	@include media($medium-screen) {
+		@include span-columns(8);
+		@include shift(2);
+	}
 }
 
 nav {
@@ -32,23 +34,18 @@ nav {
 }
 
 .container {
-	@include span-columns(8);
-	@include shift(2);
-
-	.post-header {
-		margin-top: 5em;
+	@include span-columns(12);
+	@include media($medium-screen) {
+		@include span-columns(8);
+		@include shift(2);
 	}
-
+	.post-header {margin-top: 5em}
 }
 
 ul.post-list {
-
-	li {
-		margin: 5em 0;
-	}
-
-	.post-link { font-size: 1.525em;}
-	
+	li {margin: 5em 0}
+	hr {margin-top: 3.75em}	
+	.post-link { font-size: 1.525em}
 	.meta,
 	.post-meta {
 	  width: auto;
@@ -59,19 +56,16 @@ ul.post-list {
 	  font-style: italic;
 	  opacity: 0.88;
 	}	
-
 	.post-summary {
 		opacity: 0.88;
 		font-size: 1.35em
 	}
-	
-	hr {
-		margin-top: 3.75em;
-	}	
 }
 
 footer {
-	p {text-align: center;
-	color: #7a7a7a;}
 	margin-top: 1.8em;
+	p {
+		text-align: center;
+		color: #7a7a7a;
+	}
 }

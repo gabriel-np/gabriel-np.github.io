@@ -12,3 +12,8 @@
 	ul {list-style-type: disc}
 	ol {list-style-type: decimal}
 }
+
+@mixin omega-reset($nth) {
+  &:nth-child(#{$nth}) { margin-right: flex-gutter(); }
+  &:nth-child(#{$nth}+1) { clear: none }
+}
