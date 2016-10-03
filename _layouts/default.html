@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+<<<<<<< HEAD
 	<head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -12,31 +13,19 @@
 		<script async defer src="https://buttons.github.io/buttons.js"></script>
 
 	</head>
+=======
+{% include head.html %}
+>>>>>>> design
 	<body>
 		<div class="outer">
-
-			<nav>
-					<h1>My Page</h1>
-	    		<ul>
-	        		<li><a class="button" href="/">Home</a></li>
-		        	<li><a href="/about">About</a></li>
-	    		</ul>
-			</nav>
-
+		{% include navigation.html %}
 			<section>
 				<div class="container">
-				
 					{{ content }}
-				
 				</div>
 				<!-- /.container -->
 			</section>
-
-			<footer>
-				<a href="/">Home</a>
-			</footer>
-
+		{% include footer.html %}
 		</div><!-- /.outer -->
-
 	</body>
 </html>
