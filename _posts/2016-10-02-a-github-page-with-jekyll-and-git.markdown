@@ -48,7 +48,7 @@ At the end of this list, you should have an installation of Jekyll hosted on you
 	<pre>
 		// Just make sure you're in the right dir
 		$ bundle exec jekyll serve</pre>
-1. Now that everything is set up according to your likings, it is a good time to `git add` everything. Remember that those Jekyll files still reside only on your computer. You need to be able to puck it to Github. 
+1. Now that everything is set up according to your likings, it is a good time to `git add` everything. Remember that those Jekyll files still reside only on your computer. You need to be able to push them to Github. 
 	<pre>
 		$ git add .
 		$ git commit -m "Updated Jekyll site"
