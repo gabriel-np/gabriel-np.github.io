@@ -2,7 +2,7 @@
 # Only the main Sass file needs front matter (the dashes are enough)
 ---
 
-@import "variables";
+//@import "pre-bourbon";
 
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
@@ -10,6 +10,8 @@
 	"base/base",
 	"neat/neat"
 ;
+
+@import "post-bourbon";
 
 .outer {
 	margin-top: 2em;
@@ -32,8 +34,11 @@ nav {
 .container {
 	@include span-columns(8);
 	@include shift(2);
-	//@include omega();
-	//border: 1px solid lightgrey;
+
+	.post-header {
+		margin-top: 5em;
+	}
+
 }
 
 ul.post-list {
@@ -42,7 +47,7 @@ ul.post-list {
 		margin: 5em 0;
 	}
 
-	.post-link { font-size: 2.225em; }
+	.post-link { font-size: 1.525em;}
 	
 	.meta,
 	.post-meta {
@@ -54,9 +59,16 @@ ul.post-list {
 	  font-style: italic;
 	  opacity: 0.88;
 	}	
-		
-}
 
+	.post-summary {
+		opacity: 0.88;
+		font-size: 1.35em
+	}
+	
+	hr {
+		margin-top: 3.75em;
+	}	
+}
 
 footer {
 	p {text-align: center;
