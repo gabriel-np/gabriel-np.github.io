@@ -1,28 +1,13 @@
-<!DOCTYPE html>
-<html>
-	<head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-		<title>{{ page.title }}</title>
-		<!-- link to main stylesheet -->
-		<link rel="stylesheet" type="text/css" href="/css/main.css">
-
-		<!-- Place this tag in your head or just before your close body tag. -->
-		<script async defer src="https://buttons.github.io/buttons.js"></script>
-
-	</head>
-	{% include head.html %}
-	<body>
-		<div class="outer">
-		{% include navigation.html %}
-			<section>
-				<div class="container">
-					{{ content }}
-				</div>
-				<!-- /.container -->
-			</section>
-		{% include footer.html %}
-		</div><!-- /.outer -->
-	</body>
-</html>
+{% include head.html %}
+<body>
+	<div class="outer">
+	{% include navigation.html %}
+		<section>
+			<div class="container">
+				{{ content }}
+			</div>
+			<!-- /.container -->
+		</section>
+	</div>
+	{% include footer.html %}
+</body>
