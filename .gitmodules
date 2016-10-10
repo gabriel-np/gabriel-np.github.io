@@ -1,0 +1,3 @@
+[submodule "assets/scripts/super-search"]
+	path = assets/scripts/super-search
+	url = https://github.com/chinchang/super-search.git
