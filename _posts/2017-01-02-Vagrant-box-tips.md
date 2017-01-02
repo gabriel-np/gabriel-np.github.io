@@ -1,7 +1,7 @@
 ---
 title: Vagrant Box Tips
 layout: post
-summary: Good info about customization in Vagrant
+summary: Good info about customization in Vagrant.
 ---
 
 ### Love Vagrant!

@@ -1,10 +1,9 @@
 ---
+title: Make a Jekyll Github page
 layout: post
-title:  "Make a Jekyll Github page"
-date:   2016-10-02 08:00:00 -0400
-categories: jekyll update
 summary: Let's start with Jekyll and Git.
 ---
+
 This is a Github page made with Jekyll and Git. Of course you'll have to have both of these installed.
 
 Git came with Xcode. I also use a great deal of [Github for Desktop](https://desktop.github.com/){:target="_blank"}. 
