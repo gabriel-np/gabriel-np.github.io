@@ -14,7 +14,9 @@
 @import "post-bourbon";
 
 .outer {
-	margin-top: 2em;
+	min-height: 100%;
+  margin-bottom: -100px;
+	//margin-top: 2em;
 	@include outer-container;
 } 
 
@@ -65,9 +67,18 @@ ul.post-list {
 pre {white-space: pre-wrap}
 
 footer {
-	margin-top: 1.8em;
+	//margin-top: 1.8em;
 	p {
 		text-align: center;
 		color: #7a7a7a;
 	}
 }
+
+.sticky-footer, .outer:after {
+    height: 100px;
+    //margin-top: 12px;
+}
+
+
+
+
