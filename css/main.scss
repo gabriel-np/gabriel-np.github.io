@@ -21,6 +21,9 @@ header.navigation {
 	.navigation-menu-button {
 		color: $navigation-color;
 	}
+	.navigation-wrapper {
+		z-index: 1;
+	}
 }
 
 .outer {
