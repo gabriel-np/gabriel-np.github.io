@@ -39,11 +39,9 @@ header.navigation {
 		@include span-columns(8);
 		@include shift(2);
 	}
-	//.post-header {margin-top: 5em}
 }
 
 ul.post-list {
-	//li {margin: 5em 0}
 	hr {margin-top: 3.75em}	
 	.post-link { font-size: 1.525em}
 	.meta,
