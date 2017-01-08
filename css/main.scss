@@ -10,13 +10,16 @@
 ;
 
 @import "post-bourbon";
+
 @import "navigation";
 
+$navigation-color: #1565c0;
+
 header.navigation {
-	$navigation-color: #1565c0;
 	background-color: rgba(255,255,255,1);
 	border-bottom: none;
-	ul li.nav-link {background: white}
+	margin-bottom: 6em;
+	ul li.nav-link {background: white;}
 	ul li.nav-link a,
 	.navigation-menu-button {
 		color: $navigation-color;
@@ -24,13 +27,18 @@ header.navigation {
 	.navigation-wrapper {
 		z-index: 1;
 	}
+	nav {
+		float: right;
+	}
 }
 
 .outer {
-	padding-top: 5em;
-	min-height: 100%;
-  margin-bottom: -140px;
 	@include outer-container;
+	min-height: 100%;
+  margin-bottom: -200px;
+	section .container {
+		margin-bottom: 100px;
+	}
 } 
 
 .container {
@@ -58,17 +66,31 @@ ul.post-list {
 		opacity: 0.88;
 		font-size: 1.35em
 	}
-}
-
-pre {white-space: pre-wrap}
-
-footer {
-	p {
-		text-align: center;
-		color: #7a7a7a;
+	li:last-of-type hr {
+		visibility: hidden;
 	}
 }
 
+pre {white-space: pre-wrap;}
+
+.outer:after {content: "";display: block;}
+
 .sticky-footer, .outer:after {
-    height: 90px;
+    height: 140px;
+    margin-top: 60px;
+}
+
+.sticky-footer {
+	background: rgba(21, 101, 192, 0.25);
+	border-top: 4px solid $navigation-color;
+	margin-left: -8px;
+	margin-right: -8px;
+
+	footer {
+		padding-top: 2em;
+		p {
+			text-align: center;
+			color: $navigation-color;
+		}
+	}
 }
