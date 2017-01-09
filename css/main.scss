@@ -21,14 +21,20 @@ header.navigation {
 	margin-bottom: 6em;
 	ul li.nav-link {background: white;}
 	ul li.nav-link a,
-	.navigation-menu-button {
+	.navigation-menu-button, 
+	ul li.nav-link a:hover,
+	.navigation-menu-button:hover {
 		color: $navigation-color;
 	}
+
 	.navigation-wrapper {
 		z-index: 1;
 	}
 	nav {
-		float: right;
+		float: right;		
+	}
+	i.material-icons {
+		vertical-align: middle;
 	}
 }
 
@@ -85,12 +91,12 @@ pre {white-space: pre-wrap;}
 	border-top: 4px solid $navigation-color;
 	margin-left: -8px;
 	margin-right: -8px;
-
 	footer {
 		padding-top: 2em;
 		p {
 			text-align: center;
 			color: $navigation-color;
+			i.material-icons {vertical-align: top;}
 		}
 	}
 }
