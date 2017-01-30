@@ -1,11 +1,15 @@
 ---
-title: Jairo
+title: Jairo Soundboard
 layout: post
 summary: A good looking soundboard.
 ---
 
-<img src="/assets/jairo.png" height="300" width="450" />
-		
+<img src="/assets/jairo.png" style="max-width:100%;height:auto" />
+
+Jairo is a character from [Bob's Burger](http://www.imdb.com/title/tt1561755/), the animated sitcom on [Fox](http://www.fox.com/bobs-burgers/). He is a healer and capoeira teacher. He is voiced by comedian [Jon Glaser](http://bobs-burgers.wikia.com/wiki/Jon_Glaser).
+
+See the [Official Jairo Wiki](http://bobs-burgers.wikia.com/wiki/Jairo).
+
 <ul>
 	<li>
 		<button id="b01" onclick="">Play</button> Excess Sandalwood Oil
@@ -20,7 +24,6 @@ summary: A good looking soundboard.
 		<button id="b04" onclick="">Play</button> Pesshush Shush
 	</li>
 </ul>
-
 
 <!-- All JS -->
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
