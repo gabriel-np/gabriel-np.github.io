@@ -3,27 +3,25 @@ title: Jairo Soundboard
 layout: post
 summary: A good looking soundboard.
 ---
-
 <style type="text/css">
-  img {
+  .post-content img {
     max-width:100%;
     height:auto;
   }
-	ul {
+	.post-content ul {
 		list-style-type: none !important;
 		padding: 0 !important;
 		margin: 0 !important;
 	}
-	ul li {
+	.post-content ul li {
 		border: 1px solid rgba(0,0,0,0.25);
 		border-radius: 4px !important;
 		margin-bottom: 4px !important;
 		padding: 4px !important;
 	}
-	button {
+	.post-content button {
 		padding:10px !important;
 	}
-
 </style>
 
 <img src="/assets/jairo.png" />
@@ -34,16 +32,16 @@ See the [Official Jairo Wiki](http://bobs-burgers.wikia.com/wiki/Jairo).
 
 <ul>
 	<li>
-		<button id="b01" onclick="">Play</button> Excess Sandalwood Oil
+		<button id="b01" onclick="">Play</button> Excess sandalwood oil
 	</li>
 	<li>
-		<button id="b02" onclick="">Play</button> Fell Down Go Boom
+		<button id="b02" onclick="">Play</button> Fell down go boom
 	</li>
 	<li>
-		<button id="b03" onclick="">Play</button> If It Was Broken
+		<button id="b03" onclick="">Play</button> If it was broken, you would know
 	</li>
 	<li>
-		<button id="b04" onclick="">Play</button> I am liable for no ones labrum
+		<button id="b04" onclick="">Play</button> I am liable for no ones labrum!
 	</li>
 	<li>
 		<button id="b05" onclick="">Play</button> Pesshush Shush
