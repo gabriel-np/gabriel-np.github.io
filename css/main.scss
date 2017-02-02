@@ -47,9 +47,20 @@ header.navigation {
 	}
 } 
 
+section.downsize-text {
+	font-size: 0.76em;
+	@include media($medium-screen) {
+		font-size: 0.92em;
+	}
+}
+
 .container {
 	@include span-columns(12);
 	@include media($medium-screen) {
+		@include span-columns(10);
+		@include shift(1);
+	}
+	@include media($large-screen) {
 		@include span-columns(8);
 		@include shift(2);
 	}

@@ -1,12 +1,12 @@
 ---
-layout: default
 title: Thank You
-permalink: /thanks/
+layout: default
+permalink: "/thanks/"
 ---
 
 ## Thank You!
 
-To all these projects for the inspiration and hard work.
+Big shoutout to all these projects for the inspiration and hard work.
 
 * [Bourbon](http://bourbon.io)
 * [Jekyll](https://jekyllrb.com)
