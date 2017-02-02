@@ -3,6 +3,7 @@ title: Jairo Soundboard
 layout: post
 summary: A good looking soundboard.
 ---
+
 <style type="text/css">
   .post-content img {
     max-width:100%;
@@ -26,7 +27,7 @@ summary: A good looking soundboard.
 
 <img src="/assets/jairo.png" />
 
-Jairo is a character from [Bob's Burger](http://www.imdb.com/title/tt1561755/), the animated sitcom on [Fox](http://www.fox.com/bobs-burgers/). He is a healer and capoeira teacher. He is voiced by comedian [Jon Glaser](http://bobs-burgers.wikia.com/wiki/Jon_Glaser).
+Jairo is a character from [Bob's Burger](http://www.imdb.com/title/tt1561755/), the animated sitcom on [Fox](http://www.fox.com/bobs-burgers/). He is a healer and capoeira instructor. He is voiced by comedian [Jon Glaser](http://bobs-burgers.wikia.com/wiki/Jon_Glaser).
 
 See the [Official Jairo Wiki](http://bobs-burgers.wikia.com/wiki/Jairo).
 
