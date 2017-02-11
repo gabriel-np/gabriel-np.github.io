@@ -1,7 +1,7 @@
 ---
 title: Make Your Own Icon Fonts
 layout: post
-summary: Nothing like DIY
+summary: Nothing like DIY.
 ---
 [Read the tutorial here](http://www.webdesignerdepot.com/2012/01/how-to-make-your-own-icon-webfont/) and learn how to make your own web icon fonts.
 
