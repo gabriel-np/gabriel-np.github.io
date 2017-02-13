@@ -18,6 +18,8 @@ Look at this simple one I've made today :
   </span>
 </div>
 
+[Dowload the font](/assets/fonts/Web-emotions.zip).
+
 ```
 <style>
 i.emo {
