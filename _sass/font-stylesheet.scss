@@ -1,16 +1,19 @@
 @font-face {
-  font-family: 'web_emotions_37-4';
+  font-family: 'web_emotions';
   src: url('../assets/fonts/font3933-7-4-webfont.woff2') format('woff2'),
        url('../assets/fonts/font3933-7-4-webfont.woff') format('woff');
   font-weight: normal;
   font-style: normal;
 }
 
+div.font-example {
+  margin-top: 1.25em
+}
+
 i.emo {
-	font-family: 'web_emotions_37-4';
+	font-family: 'web_emotions';
 	font-style: normal;
 	display: inline-block;
 	font-size: 4em;
-	line-height: 0.25em;
 	margin-top: -0.5em;
 }

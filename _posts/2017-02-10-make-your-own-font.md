@@ -7,7 +7,7 @@ summary: Nothing like DIY.
 
 Look at this simple one I've made today :
 
-<div>
+<div class="font-example">
   <i class="emo">1</i>
   <i class="emo">2</i>
   <i class="emo">3</i>
@@ -18,7 +18,7 @@ Look at this simple one I've made today :
   </span>
 </div>
 
-<div>
+<div class="font-example">
   <i class="emo">a</i>
   <i class="emo">b</i>
   <i class="emo">c</i>
@@ -31,7 +31,7 @@ Look at this simple one I've made today :
 ```
 <style>
 i.emo {
- font-family: 'web_emotions_37-4';
+ font-family: 'web_emotions';
  font-style: normal;
  display: inline-block;
  font-size: 4em;
