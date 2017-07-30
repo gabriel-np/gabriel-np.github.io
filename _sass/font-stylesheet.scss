@@ -6,7 +6,7 @@
   font-style: normal;
 }
 
-div.font-example {
+.font-example {
   margin-top: 1.25em
 }
 
@@ -14,6 +14,12 @@ i.emo {
 	font-family: 'web_emotions';
 	font-style: normal;
 	display: inline-block;
-	font-size: 4em;
 	margin-top: -0.5em;
+  font-size: 1.25em;
+}
+i.emo.medium {
+	font-size: 2.15em;
+}
+i.emo.large {
+	font-size: 4em;
 }

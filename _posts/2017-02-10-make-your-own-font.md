@@ -8,22 +8,22 @@ summary: Nothing like DIY.
 Look at this simple one I've made today :
 
 <div class="font-example">
-  <i class="emo">1</i>
-  <i class="emo">2</i>
-  <i class="emo">3</i>
+  <i class="emo large">1</i>
+  <i class="emo large">2</i>
+  <i class="emo large">3</i>
   <span style="color:#ff00cc">
-  <i class="emo">4</i>
-  <i class="emo">5</i>
-  <i class="emo">6</i>
+  <i class="emo large">4</i>
+  <i class="emo large">5</i>
+  <i class="emo large">6</i>
   </span>
 </div>
 
 <div class="font-example">
-  <i class="emo">a</i>
-  <i class="emo">b</i>
-  <i class="emo">c</i>
-  <i class="emo">d</i>
-  <i class="emo">e</i>
+  <i class="emo large">a</i>
+  <i class="emo large">b</i>
+  <i class="emo large">c</i>
+  <i class="emo large">d</i>
+  <i class="emo large">e</i>
 </div>
 
 [Dowload the font](/assets/fonts/Web-emotions.zip).
@@ -39,21 +39,21 @@ i.emo {
 </style>
 
 <div>
-  <i class="emo">1</i>
-  <i class="emo">2</i>
-  <i class="emo">3</i>
+  <i class="emo large">1</i>
+  <i class="emo large">2</i>
+  <i class="emo large">3</i>
   <span style="color:#ff00cc">
-  <i class="emo">4</i>
-  <i class="emo">5</i>
-  <i class="emo">6</i>
+  <i class="emo large">4</i>
+  <i class="emo large">5</i>
+  <i class="emo large">6</i>
   </span>
 </div>
 
 <div>
-  <i class="emo">a</i>
-  <i class="emo">b</i>
-  <i class="emo">c</i>
-  <i class="emo">d</i>
-  <i class="emo">e</i>
+  <i class="emo large">a</i>
+  <i class="emo large">b</i>
+  <i class="emo large">c</i>
+  <i class="emo large">d</i>
+  <i class="emo large">e</i>
 </div>
 ```

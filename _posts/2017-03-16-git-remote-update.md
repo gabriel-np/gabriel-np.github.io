@@ -1,7 +1,7 @@
 ---
 title: How to tell if you need to pull
 layout: post
-summary: Git will tel you.
+summary: Git will tell you.
 ---
 ### What's up with you remote branches?
 
