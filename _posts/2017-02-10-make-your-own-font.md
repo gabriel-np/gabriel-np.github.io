@@ -5,7 +5,7 @@ summary: Nothing like DIY.
 ---
 [Read the tutorial here](http://www.webdesignerdepot.com/2012/01/how-to-make-your-own-icon-webfont/) and learn how to make your own web icon fonts.
 
-Look at this simple one I've made today :  
+Look at this simple one I've made today :
 
 <div>
   <i class="emo">1</i>
@@ -13,9 +13,17 @@ Look at this simple one I've made today :
   <i class="emo">3</i>
   <span style="color:#ff00cc">
   <i class="emo">4</i>
-  <i class="emo">5</i> 
+  <i class="emo">5</i>
   <i class="emo">6</i>
   </span>
+</div>
+
+<div>
+  <i class="emo">a</i>
+  <i class="emo">b</i>
+  <i class="emo">c</i>
+  <i class="emo">d</i>
+  <i class="emo">e</i>
 </div>
 
 [Dowload the font](/assets/fonts/Web-emotions.zip).
@@ -23,7 +31,7 @@ Look at this simple one I've made today :
 ```
 <style>
 i.emo {
- font-family: 'web_emotions';
+ font-family: 'web_emotions_37-4';
  font-style: normal;
  display: inline-block;
  font-size: 4em;
@@ -36,8 +44,16 @@ i.emo {
   <i class="emo">3</i>
   <span style="color:#ff00cc">
   <i class="emo">4</i>
-  <i class="emo">5</i> 
+  <i class="emo">5</i>
   <i class="emo">6</i>
   </span>
+</div>
+
+<div>
+  <i class="emo">a</i>
+  <i class="emo">b</i>
+  <i class="emo">c</i>
+  <i class="emo">d</i>
+  <i class="emo">e</i>
 </div>
 ```
