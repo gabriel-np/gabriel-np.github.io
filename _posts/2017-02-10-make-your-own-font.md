@@ -5,7 +5,7 @@ summary: Nothing like DIY.
 ---
 [Read the tutorial here](http://www.webdesignerdepot.com/2012/01/how-to-make-your-own-icon-webfont/) and learn how to make your own web icon fonts.
 
-Look at this simple one I've made today :
+Look at this simple one I've made:
 
 <div class="font-example">
   <i class="emo large">1</i>
@@ -26,7 +26,7 @@ Look at this simple one I've made today :
   <i class="emo large">e</i>
 </div>
 
-[Dowload the font](/assets/fonts/Web-emotions.zip).
+[Dowload the font](/assets/fonts/web-emotions-3.zip).
 
 ```
 <style>

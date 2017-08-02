@@ -28,6 +28,9 @@ Inpiré par [cette police](http://www.dafont.com/fr/emoticons.font).
   Style "8-bit".
 
   <p class="font-example">
+    <span>f:
+      <i class="emo medium">f</i>
+    </span>
     <span>a:
       <i class="emo medium">a</i>
     </span>
@@ -43,11 +46,17 @@ Inpiré par [cette police](http://www.dafont.com/fr/emoticons.font).
     <span>e:
       <i class="emo medium">e</i>
     </span>
+    <span>g:
+      <i class="emo medium">g</i>
+    </span>
   </p>
 
   Inpiré par [material design de Google](https://material.io/icons/).
 
   <p class="font-example">
+    <span>F:
+      <i class="emo medium">F</i>
+    </span>
     <span>A:
       <i class="emo medium">A</i>
     </span>
@@ -62,6 +71,9 @@ Inpiré par [cette police](http://www.dafont.com/fr/emoticons.font).
     </span>
     <span>E:
       <i class="emo medium">E</i>
+    </span>
+    <span>G:
+      <i class="emo medium">G</i>
     </span>
   </p>
 
@@ -97,4 +109,4 @@ __Tumbs-up__ pour tout le monde!
     </span>
   </p>
 
-[Télécharger la police](/assets/fonts/Web-emotions.zip).
+[Télécharger la police](/assets/fonts/web-emotions-3.zip).
