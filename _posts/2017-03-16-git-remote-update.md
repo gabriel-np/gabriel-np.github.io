@@ -11,3 +11,5 @@ summary: Git will tell you.
 Use `git remote update` then `git status`. Git will tell you.
 
 <!-- 2017-03-16- -->
+
+**Edit**: This page made me realize I need to pay closer attention to my css. Code tag here looks ugly.
