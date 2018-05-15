@@ -89,6 +89,15 @@ See the [Official Jairo Wiki](http://bobs-burgers.wikia.com/wiki/Jairo).
 	<li>
 		<button id="b16" onclick="">Play</button> All stressy in here
 	</li>
+	<li>
+		<button id="b21" onclick="">Play</button> We've found the motherknot!
+	</li>
+	<li>
+		<button id="b22" onclick="">Play</button> Jairo's special red scrunchie
+	</li>
+	<li>
+		<button id="b23" onclick="">Play</button> Hold my ponytail
+	</li>
 </ul>
 
 <!-- All JS -->

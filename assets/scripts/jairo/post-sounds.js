@@ -1,25 +1,28 @@
 $(document).ready(function(){
     ion.sound({
         sounds: [
-		            {name: "excess-sandalwood-oil"},
-		            {name: "fell-down-go-boom"},
-		            {name: "if-it-was-broken"},
-		            {name: "liable-for-no-ones-labrum"},
-		            {name: "pesshushs-shush"},
-		            {name: "what-that-means"},
-		            {name: "not-doing-it-weird"},
-		            {name: "pesshushs-shush-2"},
-								{name: "bowel-movements"},
-								{name: "breadcrumb-vending-machine"},
-								{name: "buttocks-shoulders"},
-								{name: "double-knot"},
-								{name: "good-smoothie"},
-								{name: "pop-that-shirt-off"},
-								{name: "silly-moneygoose"},
-								{name: "stressy-in-here"},
-								{name: "take-off-your-clothes"},
-								{name: "there-is-no-such-thing"},
-								{name: "underwear-face"},
+		{name: "excess-sandalwood-oil"},
+		{name: "fell-down-go-boom"},
+		{name: "if-it-was-broken"},
+		{name: "liable-for-no-ones-labrum"},
+		{name: "pesshushs-shush"},
+		{name: "what-that-means"},
+		{name: "not-doing-it-weird"},
+		{name: "pesshushs-shush-2"},
+		{name: "bowel-movements"},
+		{name: "breadcrumb-vending-machine"},
+		{name: "buttocks-shoulders"},
+		{name: "double-knot"},
+		{name: "good-smoothie"},
+		{name: "pop-that-shirt-off"},
+		{name: "silly-moneygoose"},
+		{name: "stressy-in-here"},
+		{name: "take-off-your-clothes"},
+		{name: "there-is-no-such-thing"},
+		{name: "underwear-face"},
+		{name: "found-the-motherknot"},
+		{name: "special-red-scrunchie"},
+		{name: "hold-my-ponytail"},
         ],
         path: "/assets/sounds/",
         preload: true,
@@ -81,5 +84,14 @@ $(document).ready(function(){
 		});
 		$("#b19").on("click", function(){
 		    ion.sound.play("underwear-face");
+		});
+		$("#b21").on("click", function(){
+		    ion.sound.play("found-the-motherknot");
+		});
+		$("#b22").on("click", function(){
+		    ion.sound.play("special-red-scrunchie");
+		});
+		$("#b23").on("click", function(){
+		    ion.sound.play("hold-my-ponytail");
 		});
 });
