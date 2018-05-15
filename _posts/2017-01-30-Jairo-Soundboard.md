@@ -98,6 +98,12 @@ See the [Official Jairo Wiki](http://bobs-burgers.wikia.com/wiki/Jairo).
 	<li>
 		<button id="b23" onclick="">Play</button> Hold my ponytail
 	</li>
+	<li>
+		<button id="b24" onclick="">Play</button> Just try and not move to these rythms
+	</li>
+	<li>
+		<button id="b25" onclick="">Play</button> Brazil!
+	</li>	
 </ul>
 
 <!-- All JS -->

@@ -23,6 +23,8 @@ $(document).ready(function(){
 		{name: "found-the-motherknot"},
 		{name: "special-red-scrunchie"},
 		{name: "hold-my-ponytail"},
+		{name: "just-try-not-move"},
+		{name: "brazil"},
         ],
         path: "/assets/sounds/",
         preload: true,
@@ -93,5 +95,11 @@ $(document).ready(function(){
 		});
 		$("#b23").on("click", function(){
 		    ion.sound.play("hold-my-ponytail");
+		});
+		$("#b24").on("click", function(){
+		    ion.sound.play("just-try-not-move");
+		});
+		$("#b25").on("click", function(){
+		    ion.sound.play("brazil");
 		});
 });
